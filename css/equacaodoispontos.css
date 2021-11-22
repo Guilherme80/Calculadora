@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+.pontos{
+display: grid;
+grid-template-columns: auto;
+grid-gap: auto;
+margin-top: 5px;
+}
+
+.pontos div, label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fruktur', cursive;
+    font-weight: bold;
+
+}
+.primeira-linha{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.botoes-calculo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.calcculadora button{
+font-size: 14px;
+}
